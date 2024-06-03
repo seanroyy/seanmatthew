@@ -6,7 +6,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">{{ __('Dashboard') }}</h1>
+                    <h1 class="m-0">{{ __('Salikut me buldit mu justine') }}</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -21,12 +21,9 @@
                     <div class="card">
                         <div class="card-body">
                             <p class="card-text">
-                                {{ __('You are logged in!') }}
+                                {{ __('Salesen edit!') }}
                             </p>
-<<<<<<< HEAD
                             <h1>natoy my baby koe</h1>
-=======
->>>>>>> d18a922bedb1a5b438469b6d1654c1e6ef5c4902
                         </div>
                     </div>
                 </div>
