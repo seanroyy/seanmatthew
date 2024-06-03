@@ -23,7 +23,7 @@
                             <p class="card-text">
                                 {{ __('Salesen edit!') }}
                             </p>
-                            <h1>natoy my baby koe</h1>
+                            <h1> my baby koe</h1>
                         </div>
                     </div>
                 </div>
