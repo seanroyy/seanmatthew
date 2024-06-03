@@ -23,7 +23,7 @@
                             <p class="card-text">
                                 {{ __('You are logged in!') }}
                             </p>
-                            <h1>natoy my baby</h1>
+                            <h1>natoy my baby koe</h1>
                         </div>
                     </div>
                 </div>
