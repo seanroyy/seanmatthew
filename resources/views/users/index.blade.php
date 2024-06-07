@@ -20,7 +20,7 @@
                 <div class="col-lg-12">
 
                     <div class="alert alert-info">
-                        Sample table page
+                        BSIT 3B 
                     </div>
 
                     <div class="card">
@@ -56,4 +56,38 @@
         </div><!-- /.container-fluid -->
     </div>
     <!-- /.content -->
+    <form>
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">First Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Last Name</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputFile">Middle Name</label>
+                   
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Age</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Birthday</label>
+                    <input type="date" class="form-control" id="exampleInputPassword1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Zip</label>
+                    <input type="date" class="form-control" id="exampleInputPassword1" placeholder="">
+                  </div>
+              
+                </div>
+                <!-- /.card-body -->
+
+           
+              </form>
 @endsection

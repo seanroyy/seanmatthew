@@ -1,48 +1,48 @@
 @extends('layouts.app')
 
 @section('content')
-    <!-- Content Header (Page header) -->
-    <div class="content-header">
-        <div class="container-fluid">
-            <div class="row mb-2">
-                <div class="col-sm-6">
-                    <h1 class="m-0">{{ __('Dashboard') }}</h1>
-                </div><!-- /.col -->
-            </div><!-- /.row -->
-        </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+            <div class="container-fluid">
+                <div class="row mb-5">
+                    <div class="col-sm-0">
+                        <h1 class="col-sm-2">{{ __('Dashboard') }}</h1>
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+        </div>
+        <!-- /.content-header -->
 
-    <!-- Main content -->
-    <div class="row">
-        <div class="col-lg-3 col-6">
-            
-        <div class="small-box bg-info">
-            <div class="inner">
-                <h3>3B<h3>
-
-                <p>BSIT-3B EXAMINERS</p>
-</div>
-<div class="icon">
-    <i class="ion ion-bag"></i>
-</div>
-<a href="#" class="small-box-footer">USER PROFILE<i class="fas fa-arrow-circle">
-    <div class="content">
+        <!-- Main content -->
+        <div class="content">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-text">
-                                {{ __('About us!') }}
-                            </p>
-                            <h1> Laravel</h1>
-                        </div>
-                    </div>
-                </div>
+        <section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>1259</h3>
+
+                <p>Employees</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-bag"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
-            <!-- /.row -->
-        </div><!-- /.container-fluid -->
+          </div>
+         
+         
+        <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+        <!-- /.content -->
     </div>
-    <!-- /.content -->
+    <!-- /.content-wrapper -->
 @endsection
