@@ -22,12 +22,21 @@
 
             <li class="nav-item">
                 <a href="{{ route('users.index') }}" class="nav-link">
-                    <i class="nav-icon fas fa-users"></i>
+                    <i class="nav-icon far fa-address-card"></i>
                     <p>
                         {{ __('Users') }}
                     </p>
                 </a>
             </li>
+            <li class="nav-item">
+                <a href="{{ route('users.index') }}" class="nav-link">
+                    <i class="nav-icon fas fa-users"></i>
+                    <p>
+                        {{ __('BSIT 3B') }}
+                    </p>
+                </a>
+            </li>
+       
        
     </nav>
     <!-- /.sidebar-menu -->
