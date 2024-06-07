@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="content-wrapper">
+   
         <!-- Content Header (Page header) -->
         <div class="content-header">
             <div class="container-fluid">
@@ -35,8 +35,14 @@
               <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
+          
          
-         
+          
+
+          
+
+          
+
         <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
   </aside>
